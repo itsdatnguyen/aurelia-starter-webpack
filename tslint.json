@@ -1,0 +1,9 @@
+{
+    "defaultSeverity": "error",
+
+    "jsRules": {},
+    "rules": {
+      "no-trailing-whitespace": false
+    },
+    "rulesDirectory": []
+}

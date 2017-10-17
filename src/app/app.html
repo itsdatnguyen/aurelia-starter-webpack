@@ -1,0 +1,12 @@
+<template>
+  <nav>
+    <ul>
+      <li repeat.for="route of router.navigation" class="${route.isActive ?  'active' : ''}">
+        <a href.bind="route.href">${route.title}</a>
+      </li>
+    </ul>
+  </nav>
+  <h1>${message}</h1>
+  <h2><button click.delegate="popupClicked()">Click for a cool popup</button></h2>
+  <router-view></router-view>
+</template>
